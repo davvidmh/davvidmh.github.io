@@ -5,74 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Mendoza Hernández - CV</title>
     <style>
+        /* Estilo general tipo documento académico */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12pt;
+            line-height: 1.3;
+            color: #000;
+            max-width: 850px;
             margin: 40px auto;
-            padding: 0 20px;
+            padding: 0 40px;
         }
+
+        a {
+            color: #000;
+            text-decoration: underline;
+        }
+
         header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 25px;
         }
+
         h1 {
-            margin: 0;
-            font-size: 2.5em;
+            font-size: 24pt;
+            margin: 0 0 10px 0;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            font-weight: bold;
         }
+
         .subtitle {
-            font-size: 1.2em;
-            color: #555;
-            margin-bottom: 10px;
+            font-size: 14pt;
             display: block;
+            margin-bottom: 5px;
         }
+
         .contact-info {
-            font-size: 0.9em;
-            color: #666;
+            font-size: 11pt;
         }
-        .contact-info a {
-            color: #007bff;
-            text-decoration: none;
-            margin: 0 5px;
-        }
+
         h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-            margin-top: 30px;
-            font-size: 1.4em;
+            font-size: 14pt;
             text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            padding-bottom: 2px;
         }
-        .section-content {
-            margin-top: 15px;
+
+        p {
+            margin-bottom: 10px;
+            text-align: justify;
         }
+
         ul {
-            list-style-type: square;
+            margin: 0;
             padding-left: 20px;
         }
+
         li {
-            margin-bottom: 8px;
+            margin-bottom: 8px; /* Un poco más de espacio para leer mejor */
         }
+
         .date {
             float: right;
             font-weight: bold;
-            color: #555;
         }
-        .clear {
-            clear: both;
+
+        strong {
+            font-weight: bold;
         }
+
+        .clear { clear: both; }
     </style>
 </head>
 <body>
 
     <header>
         <h1>David Mendoza Hernández</h1>
-        <span class="subtitle">Computer Science Student</span>
+        <span class="subtitle">Computer Science Undergraduate</span>
         <div class="contact-info">
-            CDMX, MX | +52 558246 6362 | 
-            <a href="mailto:davvidmh@gmail.com">davvidmh@gmail.com</a> | 
+            CDMX, MX | +52 558246 6362 |
+            <a href="mailto:davvidmh@gmail.com">davvidmh@gmail.com</a> |
             <a href="https://davvidmh.github.io" target="_blank">davvidmh.github.io</a>
         </div>
     </header>
@@ -80,50 +93,47 @@
     <main>
         <section>
             <h2>Objective</h2>
-            <div class="section-content">
-                <p>Computer Science student with rigorous technical skills in backend software architecture and a solid foundation in cybersecurity. Interested in profound investigation projects as part of a continuous CS career.</p>
-            </div>
+            <p>Computer Science student with rigorous technical skills in backend software architecture. Possessing a solid foundation in Core Engineering, System Architecture, Data Science, AI, and Infrastructure security (DevOps/SecOps). Interested in profound investigation projects as part of a continuous CS career.</p>
         </section>
 
         <section>
             <h2>Experience</h2>
-            <div class="section-content">
-                <ul>
-                    <li>
-                        <strong>Enterprise Application Development:</strong> Developed a custom accounting application using <strong>Python, TypeScript, and SQL</strong>. The solution optimized processes and saved up to 30% in revenue for the client.
-                    </li>
-                    <li>
-                        <strong>Backend Architecture:</strong> Leveraged solid knowledge in algorithms and data structures to create efficient logic and robust backend systems.
-                    </li>
-                    <li>
-                        <strong>Research:</strong> Published research papers in collaboration with PhD faculty (UAM).
-                    </li>
-                </ul>
-            </div>
+            <ul>
+                <li>
+                    <strong>Full-Stack Enterprise Architecture:</strong> Engineered a comprehensive accounting platform managing the complete lifecycle of monthly paid subscriptions, and data processing.
+
+                    <ul style="margin-top:5px; margin-bottom:5px;">
+                        <li><strong>Architecture:</strong> Designed the Full-Stack architecture hosted on Oracle Cloud Infrastructure (OCI).</li>
+                        <li><strong>Optimization:</strong> Implemented advanced algorithms and data structures that optimized processing time and increased startup revenue by 30%.</li>
+                        <li><strong>Security & Data:</strong> Managed backend logic ensuring secure data handling and scalable database interactions.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Research:</strong> Published research papers in collaboration with PhD faculty (UAM).
+                </li>
+            </ul>
         </section>
 
         <section>
             <h2>Education</h2>
-            <div class="section-content">
-                <p>
-                    <span class="date">June 2023 – Present</span>
-                    <strong>Universidad Autónoma Metropolitana</strong><br>
-                    Computer Science Degree
-                </p>
+            <div class="education-item">
+                <span class="date">October 2025 – Present</span>
+                <strong>Universidad Autónoma Metropolitana</strong><br>
+                Computer Science Degree
                 <div class="clear"></div>
             </div>
         </section>
 
         <section>
             <h2>Skills & Tools</h2>
-            <div class="section-content">
-                <ul>
-                    <li><strong>Languages:</strong> Java, Python, C, C++, Ruby, Bash.</li>
-                    <li><strong>Tools:</strong> phpMyAdmin, Xampp.</li>
-                    <li><strong>Languages (Spoken):</strong> First Certificate in English Cambridge B2 (2019).</li>
-                    <li><strong>Soft Skills:</strong> Strong written and verbal communication for technical and business environments; ability to manage multiple projects simultaneously.</li>
-                </ul>
-            </div>
+            <ul>
+                <li><strong>Languages:</strong> Java, Python, C, C++, Ruby, Bash.</li>
+                <li><strong>Tools:</strong> phpMyAdmin, Xampp, Oracle Cloud.</li>
+<li><strong>Spoken Languages:</strong> Spanish (Native), English (Cambridge B2 - Professional Proficiency), German (A1).</li>
+<li><strong>Soft Skills:</strong> Strong written and verbal communication for technical and business environments; ability to manage multiple projects simultaneously.
+</li>
+            </ul>
         </section>
     </main>
 
